@@ -52,7 +52,7 @@ export default function Contact() {
             <span>📧</span>
             <div>
               <small>Email Me</small>
-              <p>saurabhkumar9065084030@gmail.com</p>
+              <p>saurabhkr4030@gmail.com</p>
             </div>
           </div>
 
@@ -84,7 +84,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://github.com/Saurabh4030"
+              href="https://github.com/Saurabhkr4030"
               target="_blank"
               rel="noopener noreferrer"
               title="GitHub"
@@ -106,11 +106,14 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=saurabhkumar9065084030@gmail.com&su=Contact%20from%20Portfolio"
-              title="Email via Gmail"
+             href="https://mail.google.com/mail/?view=cm&fs=1&to=saurabhkr4030@gmail.com&su=Contact%20from%20Portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Email via Gmail"
             >
-              📧
+           📧
             </a>
+
 
           </div>
         </div>

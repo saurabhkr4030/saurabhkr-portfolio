@@ -13,6 +13,10 @@ import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+
+import "./index.css";
+
+
 // styles
 import "./styles/reset.css";
 import "./styles/navbar.css";
@@ -21,7 +25,7 @@ import "./styles/about.css";
 import "./styles/philosophy.css";
 import "./styles/skills.css";
 // import "./styles/experience.css";
-import "./styles/projects.css";
+// import "./styles/projects.css";
 import "./styles/certificates.css";
 import "./styles/contact.css";
 import "./styles/cv.css";

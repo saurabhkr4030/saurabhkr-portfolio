@@ -18,7 +18,7 @@ export default function Footer() {
         {/* CENTER SOCIALS */}
         <div className="footer-socials">
           <a
-            href="https://github.com/Saurabh4030"
+            href="https://github.com/Saurabhkr4030"
             target="_blank"
             rel="noopener noreferrer"
             title="GitHub"
@@ -36,7 +36,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=saurabhkumar9065084030@gmail.com&su=Contact%20from%20Portfolio"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=saurabhkr4030@gmail.com&su=Contact%20from%20Portfolio"
               title="Email via Gmail"
           >
             <FaEnvelope />
