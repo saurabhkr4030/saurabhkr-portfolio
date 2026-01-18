@@ -84,3 +84,49 @@
     0 0 45px rgba(124, 58, 237, 0.6);
 }
 
+/* Hamburger icon */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile View */
+@media (max-width: 900px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+
+    background: rgba(2, 9, 42, 0.95);
+    backdrop-filter: blur(12px);
+
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    border-radius: 16px;
+
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}

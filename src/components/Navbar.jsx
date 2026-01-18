@@ -1,22 +1,28 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <nav className="navbar">
       <div className="logo">Saurabh Kr</div>
 
-      <ul className="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Project</a></li>
-        {/* <li><a href="#experience">Experience</a></li> */}
-        <li><a href="#certification">Certification</a></li>
-        <li><a href="#contact">Contact</a></li>
+      {/* Hamburger Icon */}
+      <div className="menu-toggle" onClick={() => setOpen(!open)}>
+        ☰
+      </div>
+
+      <ul className={`nav-links ${open ? "active" : ""}`}>
+        <li><a href="#home" onClick={() => setOpen(false)}>Home</a></li>
+        <li><a href="#about" onClick={() => setOpen(false)}>About</a></li>
+        <li><a href="#skills" onClick={() => setOpen(false)}>Skills</a></li>
+        <li><a href="#projects" onClick={() => setOpen(false)}>Project</a></li>
+        <li><a href="#certification" onClick={() => setOpen(false)}>Certification</a></li>
+        <li><a href="#contact" onClick={() => setOpen(false)}>Contact</a></li>
       </ul>
 
-      {/* Download CV Button */}
-      <Link to="/cv" className="btn">
+      <Link to="/cv" className="btn desktop-only">
         View CV
       </Link>
     </nav>

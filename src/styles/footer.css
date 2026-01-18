@@ -83,7 +83,11 @@
   .footer-container {
     grid-template-columns: 1fr;
     text-align: center;
-    gap: 20px;
+    justify-items: center;   /* ⭐ IMPORTANT */
+  }
+
+  .footer-socials {
+    justify-content: center; /* ⭐ IMPORTANT */
   }
 
   .footer-right {
