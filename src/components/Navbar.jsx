@@ -22,7 +22,7 @@ export default function Navbar() {
         <li><a href="#contact" onClick={() => setOpen(false)}>Contact</a></li>
       </ul>
 
-      <Link to="/cv" className="btn desktop-only">
+      <Link to="/cv" className="btn">
         View CV
       </Link>
     </nav>
