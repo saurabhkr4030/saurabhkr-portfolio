@@ -21,7 +21,7 @@ export default function Hero() {
 
         <div className="hero-image">
           <div className="image-ring">
-            <img src="/profile.jpg" alt="Saurabh" />
+            <img src="profile.jpeg" alt="Saurabh" />
           </div>
         </div>
 
