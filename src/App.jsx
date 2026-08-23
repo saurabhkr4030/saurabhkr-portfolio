@@ -12,6 +12,7 @@ import Education from "./components/Education";
 import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Dashboard from "./admin/Dashboard"
 
 
 import "./index.css";
@@ -58,6 +59,7 @@ function Layout() {
           }
         />
         <Route path="/cv" element={<CvPreview />} />
+        <Route path="/dashboard" element={<Dashboard/>} />
       </Routes>
     </>
   );
